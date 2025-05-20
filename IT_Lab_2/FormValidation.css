@@ -1,0 +1,40 @@
+body 
+{
+    font-family: Arial;
+    background-color: #d4d05f;
+    text-align: center;
+}
+
+.container 
+{
+    width: 300px;
+    background: rgb(93, 188, 66);
+    padding: 20px;
+    margin: auto;
+}
+
+h2 
+{
+    margin-bottom: 20px;
+}
+
+input 
+{
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px;
+}
+
+button 
+{
+    background-color: #284ea7;
+    color: white;
+    padding: 10px;
+    width: 90%;
+}
+
+.error 
+{
+    color: rgb(19, 6, 6);
+    font-size: 12px;
+}
