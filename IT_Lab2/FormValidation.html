@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Form Validation for Registration </title>
+        <link rel="stylesheet" href = "FormValidation.css">
+    </head>
+    <body>
+        <h2> Assignment - Form Validation </h2>
+        <div class="container">
+            <h2> Registration Form </h2>
+            <form id="registrationForm">
+                <label for= "name"> Full Name </label>
+                <input type="text" id ="name">
+                <span class ="error" id ="nameError"></span>
+
+                <label for= "email"> Enter Email </label>
+                <input type= "text" id="email">
+                <span class ="error" id="emailError"> </span>
+
+                <label for ="password"> Enter Password </label>
+                <input type="password" id= "password">
+                <span class= "error" id ="passwordError"> </span>
+
+                <label for= "dob"> Date of Birth </label>
+                <input type ="date" id= "dob">
+                <span class = "error" id= "dobError"></span>
+
+                <label for= "phone"> Phone Number </label>
+                <input  type="text" id= "phone">
+                <span class ="error" id ="phoneError"></span>
+
+                <button type ="submit"> Submit </button>
+            </form>
+        </div>
+        <script src="FormValidation.js"></script>
+    </body>
+</html>
