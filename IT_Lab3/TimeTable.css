@@ -1,0 +1,17 @@
+th{
+    background-color: blueviolet;
+}
+td{
+    background-color: burlywood;
+}
+.sub{
+    background-color: rgb(0, 117, 201);
+}
+.sub:hover{
+    background-color: rgb(202, 57, 57);
+    box-shadow: 3px 3px rgb(180, 120, 8);
+    transition: 1s, 1s, 1s;
+}
+marquee{
+    background-color: rgb(184, 155, 155);
+}
